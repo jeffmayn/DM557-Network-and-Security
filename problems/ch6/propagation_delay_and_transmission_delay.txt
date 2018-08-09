@@ -1,0 +1,28 @@
+A) what is the propagation delay?
+---- the time it takes a bit to propagate from host A to host B
+---- = m/s sec
+
+B) what is the transmission delay?
+---- the time it takes host A to push out the entire packet
+---- = L/R sec
+
+C) Ignoring queuing and processeing, what is the end to end delay?
+---- the time it takes host A to push out the entire packet = L/R sec
+---- plus the time for last bit in packet to propagate to host M = m/s sec
+---- L/R + m/s
+
+D) at time t = d_trans, where is the last bit of the packet?
+---- the bit has just left host A and entered the link
+
+E) suppose d_prop > d_trans, at time t = d_trans, where is the first bit?
+---- this means that when host A is done transmitting, the forst bit has
+---- not yet reached host B. So the bit is in the link
+
+F) suppose d_prop < d_trans, at time t = d_trans, where is the first bit?
+---- this means that when host A is done transmitting, the fist bit has
+---- reached host B. So the bit is in host B
+
+G) s = 2.5 x 10^8 m/sec, L = 120 bits, R = 56 kbps. Find m so that d_prop = d_trans
+---- L/R = m/s. obtain m = 536 km
+
+
