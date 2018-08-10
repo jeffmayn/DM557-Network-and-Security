@@ -12,7 +12,9 @@ message = input('write message: ')
 # .encode() -> encode to bytes
 clientSocket.sendto(message.encode(), (serverName, serverPort))
 
-
+# a packets data is put into modifiedMessage
+# a packets address is put into serverAddress (IP and port)
+# recvfrom takes buffer size 2048
 modifiedMessage, serverAddress = clientSocket.recvfrom(2048)
 
 print(modifiedMessage.decode())
