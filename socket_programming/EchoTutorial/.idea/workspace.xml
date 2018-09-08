@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5d828733-0dda-4023-8076-d515f790c1cb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/EchoClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/EchoServer.java" afterDir="false" />
-    </list>
+    <list default="true" id="5d828733-0dda-4023-8076-d515f790c1cb" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -27,8 +23,8 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="277" />
-    <option name="y" value="37" />
+    <option name="x" value="253" />
+    <option name="y" value="35" />
     <option name="width" value="1400" />
     <option name="height" value="1000" />
   </component>
@@ -60,6 +56,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1536417026906" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -81,6 +78,34 @@
       </list>
     </option>
   </component>
+  <component name="RunManager" selected="Application.EchoClient">
+    <configuration name="EchoClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="EchoClient" />
+      <module name="EchoTutorial" />
+      <option name="PROGRAM_PARAMETERS" value="127.0.0.1 5656" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EchoServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="EchoServer" />
+      <module name="EchoTutorial" />
+      <option name="PROGRAM_PARAMETERS" value="5656" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.EchoClient" />
+      <item itemvalue="Application.EchoServer" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.EchoClient" />
+        <item itemvalue="Application.EchoServer" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -95,7 +120,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="277" y="37" width="1400" height="1000" extended-state="0" />
+    <frame x="253" y="35" width="1400" height="1000" extended-state="0" />
     <layout>
       <window_info id="Image Layers" />
       <window_info id="Designer" />
