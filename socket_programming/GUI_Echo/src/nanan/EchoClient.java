@@ -27,7 +27,10 @@ public class EchoClient {
     private int port;
 
 
+
+
     public EchoClient() {
+
         connectButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
@@ -40,14 +43,21 @@ public class EchoClient {
                         // creates new socket object and applies IP and Port number to it.
                         Socket echoSocket = new Socket(host, port);
 
+                        PrintWriter out = new PrintWriter(echoSocket.getOutputStream(), true);
+                        BufferedReader in = new BufferedReader( new InputStreamReader(echoSocket.getInputStream()) );
+                        BufferedReader stdIn = new BufferedReader( new InputStreamReader(System.in) )
+
 
                     ){
                         chat.setText(chat.getText() + "[SYSTEM]: Connected to: " + host + ":" + port + "\n");
                         connectButton.setText("Disconnect");
 
+
+
+
                     } catch (UnknownHostException u) {
                         System.err.println("Don't know about host " + host);
-                        System.exit(1);
+                      //  System.exit(1);
                     } catch (IOException u) {
                         chat.setText(chat.getText() + "[SYSTEM]: Couldn't connect to: " + host + ":" + port + "\n");
                         System.err.println("Couldn't get I/O for the connection to " +
@@ -74,7 +84,7 @@ public class EchoClient {
                     chat.setText(chat.getText() + "[SYSTEM]: You are not connected to anybody :-(\n");
                 } else {
 
-                 //   Socket echoSocket = new Socket(hostName, portNumber);
+
 
 
 
@@ -82,6 +92,8 @@ public class EchoClient {
             }
         });
     }
+
+
 
     public static void main(String[] args){
         JFrame frame = new JFrame("Chat");
@@ -91,7 +103,11 @@ public class EchoClient {
         frame.setResizable(false);
         frame.pack();
         frame.setVisible(true);
+
+
+
     }
+
 
 
     private void createUIComponents() {
