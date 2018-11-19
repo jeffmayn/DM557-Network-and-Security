@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - Class dk.sdu.imada.rsa.AssignmentSpec</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>Class dk.sdu.imada.rsa.AssignmentSpec</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/dk.sdu.imada.rsa.html">dk.sdu.imada.rsa</a> &gt; AssignmentSpec</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">3</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">0.057s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">Test decryption</td>
+<td class="success">0.024s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">Test encryption</td>
+<td class="success">0.009s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">test euclidean algorithm</td>
+<td class="success">0.024s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>gcd(123456544 , 9955487) is [1 , -2283680 , 28319583]
+So -2283680 * 123456544 + 28319583 * 9955487 = 1
+r = 1
+s = -2283680
+t = 28319583
+The encrypted message for 'what a lovely little coding exercise this is' is
+336216001955799973283533256998397373836141999555184519761196766264954723610920307171355356505424929167224067372219794532
+1569461840292058801302427545095967554138683782449878244506342713084067634039877684280218035332944393063268989055571825944
+852123580378401602518241019263247911403292473993227946728860777866629781354251306426991759528118174213969297610891042618
+998806393708391460406394034134003506105207728744795327867768583760709848704933673329966941335595406327104261594435232166
+863771651991973880459550897761709891811669308997359889308450661172606672964615477912462641940371135950544362638135138203
+6158253593858016324791490495263499506171249799249440795063570805321029359442152066632928455879989316463339369748975150
+1401082157800857539463340723113214830706954755111112410302966529927397499625079147472836963457987031924948920333214362689
+1445171621358978208458561004376590779752793305308119231311355774845210351591025453686592607991942088878500988583758314901
+842375303814461670716107638077107196331300943221386503126026068421518065992646047684184484567715507622032365134967814601
+
+The ciphertext decrypted is:
+plaintext --&gt; 'what '
+plaintext --&gt; 'what is th'
+plaintext --&gt; 'what is the bes'
+plaintext --&gt; 'what is the best thi'
+plaintext --&gt; 'what is the best thing ab'
+plaintext --&gt; 'what is the best thing about s'
+plaintext --&gt; 'what is the best thing about switze'
+plaintext --&gt; 'what is the best thing about switzerland'
+plaintext --&gt; 'what is the best thing about switzerland i do'
+plaintext --&gt; 'what is the best thing about switzerland i dont kn'
+plaintext --&gt; 'what is the best thing about switzerland i dont know bu'
+plaintext --&gt; 'what is the best thing about switzerland i dont know but the'
+plaintext --&gt; 'what is the best thing about switzerland i dont know but the flag'
+plaintext --&gt; 'what is the best thing about switzerland i dont know but the flag is a'
+plaintext --&gt; 'what is the best thing about switzerland i dont know but the flag is a plus'
+what is the best thing about switzerland i dont know but the flag is a plus
+plaintext --&gt; 'what '
+plaintext --&gt; 'what is th'
+plaintext --&gt; 'what is the bes'
+plaintext --&gt; 'what is the best thi'
+plaintext --&gt; 'what is the best thing ab'
+plaintext --&gt; 'what is the best thing about s'
+plaintext --&gt; 'what is the best thing about switze'
+plaintext --&gt; 'what is the best thing about switzerland'
+plaintext --&gt; 'what is the best thing about switzerland i do'
+plaintext --&gt; 'what is the best thing about switzerland i dont kn'
+plaintext --&gt; 'what is the best thing about switzerland i dont know bu'
+plaintext --&gt; 'what is the best thing about switzerland i dont know but the'
+plaintext --&gt; 'what is the best thing about switzerland i dont know but the flag'
+plaintext --&gt; 'what is the best thing about switzerland i dont know but the flag is a'
+plaintext --&gt; 'what is the best thing about switzerland i dont know but the flag is a plus'
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 4.10.2</a> at Nov 19, 2018 2:54:06 PM</p>
+</div>
+</div>
+</body>
+</html>

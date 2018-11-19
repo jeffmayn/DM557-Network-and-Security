@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="dk.sdu.imada.rsa.AlphabetConversionSpec" tests="16" skipped="0" failures="0" errors="0" timestamp="2018-11-19T13:54:06" hostname="DESKTOP-97JQ1L9" time="0.112">
+  <properties/>
+  <testcase name="Check that numberToString converts correctly '10793358' =&gt; 'this '" classname="dk.sdu.imada.rsa.AlphabetConversionSpec" time="0.096"/>
+  <testcase name="Check that numberToString converts correctly '0' =&gt; '     '" classname="dk.sdu.imada.rsa.AlphabetConversionSpec" time="0.001"/>
+  <testcase name="Check that numberToString converts correctly '7553805' =&gt; 'netwo'" classname="dk.sdu.imada.rsa.AlphabetConversionSpec" time="0.0"/>
+  <testcase name="Check that stringToNumber converts correctly '     ' =&gt; 0" classname="dk.sdu.imada.rsa.AlphabetConversionSpec" time="0.003"/>
+  <testcase name="Check that stringToNumber converts correctly 'this ' =&gt; 10793358" classname="dk.sdu.imada.rsa.AlphabetConversionSpec" time="0.0"/>
+  <testcase name="Check that stringToNumber converts correctly 'netwo' =&gt; 7553805" classname="dk.sdu.imada.rsa.AlphabetConversionSpec" time="0.0"/>
+  <testcase name="Check charToNumber converts correctly 'a' =&gt; 1" classname="dk.sdu.imada.rsa.AlphabetConversionSpec" time="0.004"/>
+  <testcase name="Check charToNumber converts correctly 'b' =&gt; 2" classname="dk.sdu.imada.rsa.AlphabetConversionSpec" time="0.0"/>
+  <testcase name="Check charToNumber converts correctly 'z' =&gt; 26" classname="dk.sdu.imada.rsa.AlphabetConversionSpec" time="0.0"/>
+  <testcase name="Check charToNumber converts correctly ' ' =&gt; 0" classname="dk.sdu.imada.rsa.AlphabetConversionSpec" time="0.0"/>
+  <testcase name="Check charToNumber converts correctly '$' =&gt; 0" classname="dk.sdu.imada.rsa.AlphabetConversionSpec" time="0.0"/>
+  <testcase name="Check numberToChar converts correctly '0' =&gt; ' '" classname="dk.sdu.imada.rsa.AlphabetConversionSpec" time="0.0"/>
+  <testcase name="Check numberToChar converts correctly '1' =&gt; 'a'" classname="dk.sdu.imada.rsa.AlphabetConversionSpec" time="0.001"/>
+  <testcase name="Check numberToChar converts correctly '26' =&gt; 'z'" classname="dk.sdu.imada.rsa.AlphabetConversionSpec" time="0.0"/>
+  <testcase name="Test numberToChar throws exeption for erroneous input: -1" classname="dk.sdu.imada.rsa.AlphabetConversionSpec" time="0.004"/>
+  <testcase name="Test numberToChar throws exeption for erroneous input: 27" classname="dk.sdu.imada.rsa.AlphabetConversionSpec" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

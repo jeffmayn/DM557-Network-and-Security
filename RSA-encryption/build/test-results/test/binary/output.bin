@@ -1,0 +1,63 @@
+7gcd(123456544 , 9955487) is [1 , -2283680 , 28319583]
+2So -2283680 * 123456544 + 28319583 * 9955487 = 1
+r = 1
+s = -2283680
+t = 28319583
+LThe encrypted message for 'what a lovely little coding exercise this is' is
+y336216001955799973283533256998397373836141999555184519761196766264954723610920307171355356505424929167224067372219794532
+z1569461840292058801302427545095967554138683782449878244506342713084067634039877684280218035332944393063268989055571825944
+y852123580378401602518241019263247911403292473993227946728860777866629781354251306426991759528118174213969297610891042618
+y998806393708391460406394034134003506105207728744795327867768583760709848704933673329966941335595406327104261594435232166
+y863771651991973880459550897761709891811669308997359889308450661172606672964615477912462641940371135950544362638135138203
+w6158253593858016324791490495263499506171249799249440795063570805321029359442152066632928455879989316463339369748975150
+z1401082157800857539463340723113214830706954755111112410302966529927397499625079147472836963457987031924948920333214362689
+z1445171621358978208458561004376590779752793305308119231311355774845210351591025453686592607991942088878500988583758314901
+y842375303814461670716107638077107196331300943221386503126026068421518065992646047684184484567715507622032365134967814601
+
+The ciphertext decrypted is:
+plaintext --> 'what '
+plaintext --> 'what is th'
+!plaintext --> 'what is the bes'
+&plaintext --> 'what is the best thi'
++plaintext --> 'what is the best thing ab'
+0plaintext --> 'what is the best thing about s'
+5plaintext --> 'what is the best thing about switze'
+:plaintext --> 'what is the best thing about switzerland'
+?plaintext --> 'what is the best thing about switzerland i do'
+Dplaintext --> 'what is the best thing about switzerland i dont kn'
+Iplaintext --> 'what is the best thing about switzerland i dont know bu'
+Nplaintext --> 'what is the best thing about switzerland i dont know but the'
+Splaintext --> 'what is the best thing about switzerland i dont know but the flag'
+Xplaintext --> 'what is the best thing about switzerland i dont know but the flag is a'
+]plaintext --> 'what is the best thing about switzerland i dont know but the flag is a plus'
+Mwhat is the best thing about switzerland i dont know but the flag is a plus
+plaintext --> 'what '
+plaintext --> 'what is th'
+!plaintext --> 'what is the bes'
+&plaintext --> 'what is the best thi'
++plaintext --> 'what is the best thing ab'
+0plaintext --> 'what is the best thing about s'
+5plaintext --> 'what is the best thing about switze'
+:plaintext --> 'what is the best thing about switzerland'
+?plaintext --> 'what is the best thing about switzerland i do'
+Dplaintext --> 'what is the best thing about switzerland i dont kn'
+Iplaintext --> 'what is the best thing about switzerland i dont know bu'
+Nplaintext --> 'what is the best thing about switzerland i dont know but the'
+Splaintext --> 'what is the best thing about switzerland i dont know but the flag'
+Xplaintext --> 'what is the best thing about switzerland i dont know but the flag is a'
+]plaintext --> 'what is the best thing about switzerland i dont know but the flag is a plus'
+%plaintext --> '    a'
+&plaintext --> '    b'
+'plaintext --> '    c'
+(plaintext --> '    d'
+)plaintext --> '    z'
+*plaintext --> '    f'
+*plaintext --> '    f    g'
++plaintext --> 'this '
++plaintext --> 'this is a '
++!plaintext --> 'this is a hello'
++&plaintext --> 'this is a hello worl'
+++plaintext --> 'this is a hello world enc'
++0plaintext --> 'this is a hello world encrypte'
++5plaintext --> 'this is a hello world encrypted mes'
++:plaintext --> 'this is a hello world encrypted message '

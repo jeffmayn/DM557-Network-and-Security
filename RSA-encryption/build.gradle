@@ -1,0 +1,27 @@
+apply plugin: "groovy"
+apply plugin: "application"
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile 'org.codehaus.groovy:groovy-all:2.5.3'
+    testCompile 'org.spockframework:spock-core:1.2-groovy-2.5'
+}
+
+task zipAssignmentFiles(type: Zip) {
+   from '.'
+   include 'src'
+   include 'src/**'
+   include 'build.gradle'
+   include 'gradle'
+   include 'gradle/**'
+   include 'gradle*'
+   archiveName 'assignment.zip'
+   destinationDir(file('build/zip'))
+}
+
+test {
+    testLogging.showStandardStreams = true
+}

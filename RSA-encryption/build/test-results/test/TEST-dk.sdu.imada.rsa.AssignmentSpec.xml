@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="dk.sdu.imada.rsa.AssignmentSpec" tests="3" skipped="0" failures="0" errors="0" timestamp="2018-11-19T13:54:06" hostname="DESKTOP-97JQ1L9" time="0.057">
+  <properties/>
+  <testcase name="test euclidean algorithm" classname="dk.sdu.imada.rsa.AssignmentSpec" time="0.024"/>
+  <testcase name="Test encryption" classname="dk.sdu.imada.rsa.AssignmentSpec" time="0.009"/>
+  <testcase name="Test decryption" classname="dk.sdu.imada.rsa.AssignmentSpec" time="0.024"/>
+  <system-out><![CDATA[gcd(123456544 , 9955487) is [1 , -2283680 , 28319583]
+So -2283680 * 123456544 + 28319583 * 9955487 = 1
+r = 1
+s = -2283680
+t = 28319583
+The encrypted message for 'what a lovely little coding exercise this is' is
+336216001955799973283533256998397373836141999555184519761196766264954723610920307171355356505424929167224067372219794532
+1569461840292058801302427545095967554138683782449878244506342713084067634039877684280218035332944393063268989055571825944
+852123580378401602518241019263247911403292473993227946728860777866629781354251306426991759528118174213969297610891042618
+998806393708391460406394034134003506105207728744795327867768583760709848704933673329966941335595406327104261594435232166
+863771651991973880459550897761709891811669308997359889308450661172606672964615477912462641940371135950544362638135138203
+6158253593858016324791490495263499506171249799249440795063570805321029359442152066632928455879989316463339369748975150
+1401082157800857539463340723113214830706954755111112410302966529927397499625079147472836963457987031924948920333214362689
+1445171621358978208458561004376590779752793305308119231311355774845210351591025453686592607991942088878500988583758314901
+842375303814461670716107638077107196331300943221386503126026068421518065992646047684184484567715507622032365134967814601
+
+The ciphertext decrypted is:
+plaintext --> 'what '
+plaintext --> 'what is th'
+plaintext --> 'what is the bes'
+plaintext --> 'what is the best thi'
+plaintext --> 'what is the best thing ab'
+plaintext --> 'what is the best thing about s'
+plaintext --> 'what is the best thing about switze'
+plaintext --> 'what is the best thing about switzerland'
+plaintext --> 'what is the best thing about switzerland i do'
+plaintext --> 'what is the best thing about switzerland i dont kn'
+plaintext --> 'what is the best thing about switzerland i dont know bu'
+plaintext --> 'what is the best thing about switzerland i dont know but the'
+plaintext --> 'what is the best thing about switzerland i dont know but the flag'
+plaintext --> 'what is the best thing about switzerland i dont know but the flag is a'
+plaintext --> 'what is the best thing about switzerland i dont know but the flag is a plus'
+what is the best thing about switzerland i dont know but the flag is a plus
+plaintext --> 'what '
+plaintext --> 'what is th'
+plaintext --> 'what is the bes'
+plaintext --> 'what is the best thi'
+plaintext --> 'what is the best thing ab'
+plaintext --> 'what is the best thing about s'
+plaintext --> 'what is the best thing about switze'
+plaintext --> 'what is the best thing about switzerland'
+plaintext --> 'what is the best thing about switzerland i do'
+plaintext --> 'what is the best thing about switzerland i dont kn'
+plaintext --> 'what is the best thing about switzerland i dont know bu'
+plaintext --> 'what is the best thing about switzerland i dont know but the'
+plaintext --> 'what is the best thing about switzerland i dont know but the flag'
+plaintext --> 'what is the best thing about switzerland i dont know but the flag is a'
+plaintext --> 'what is the best thing about switzerland i dont know but the flag is a plus'
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="dk.sdu.imada.rsa.RSASpec" tests="16" skipped="0" failures="0" errors="0" timestamp="2018-11-19T13:54:06" hostname="DESKTOP-97JQ1L9" time="0.254">
+  <properties/>
+  <testcase name="Test d is correct set when values are given RSA(13,17,5) =&gt; d=77" classname="dk.sdu.imada.rsa.RSASpec" time="0.002"/>
+  <testcase name="Test d is correct set when values are given RSA(13,17,7) =&gt; d=55" classname="dk.sdu.imada.rsa.RSASpec" time="0.001"/>
+  <testcase name="Test d is correct set when values are given RSA(13,17,11) =&gt; d=35" classname="dk.sdu.imada.rsa.RSASpec" time="0.0"/>
+  <testcase name="Test encryption only with small example '    a'=&gt;'1&#10;'" classname="dk.sdu.imada.rsa.RSASpec" time="0.0"/>
+  <testcase name="Test encryption only with small example '    b'=&gt;'32&#10;'" classname="dk.sdu.imada.rsa.RSASpec" time="0.0"/>
+  <testcase name="Test encryption only with small example '    c'=&gt;'22&#10;'" classname="dk.sdu.imada.rsa.RSASpec" time="0.0"/>
+  <testcase name="Test encryption only with small example '    d'=&gt;'140&#10;'" classname="dk.sdu.imada.rsa.RSASpec" time="0.0"/>
+  <testcase name="Test encryption only with small example '    z'=&gt;'195&#10;'" classname="dk.sdu.imada.rsa.RSASpec" time="0.0"/>
+  <testcase name="Test encryption only with small example '    f    g'=&gt;'41&#10;11&#10;'" classname="dk.sdu.imada.rsa.RSASpec" time="0.0"/>
+  <testcase name="Test decryption only with small example '1&#10;' =&gt; '    a'" classname="dk.sdu.imada.rsa.RSASpec" time="0.0"/>
+  <testcase name="Test decryption only with small example '32&#10;' =&gt; '    b'" classname="dk.sdu.imada.rsa.RSASpec" time="0.0"/>
+  <testcase name="Test decryption only with small example '22&#10;' =&gt; '    c'" classname="dk.sdu.imada.rsa.RSASpec" time="0.001"/>
+  <testcase name="Test decryption only with small example '140&#10;' =&gt; '    d'" classname="dk.sdu.imada.rsa.RSASpec" time="0.0"/>
+  <testcase name="Test decryption only with small example '195&#10;' =&gt; '    z'" classname="dk.sdu.imada.rsa.RSASpec" time="0.001"/>
+  <testcase name="Test decryption only with small example '41&#10;11&#10;' =&gt; '    f    g'" classname="dk.sdu.imada.rsa.RSASpec" time="0.0"/>
+  <testcase name="Test encryption and decryption" classname="dk.sdu.imada.rsa.RSASpec" time="0.241"/>
+  <system-out><![CDATA[plaintext --> '    a'
+plaintext --> '    b'
+plaintext --> '    c'
+plaintext --> '    d'
+plaintext --> '    z'
+plaintext --> '    f'
+plaintext --> '    f    g'
+plaintext --> 'this '
+plaintext --> 'this is a '
+plaintext --> 'this is a hello'
+plaintext --> 'this is a hello worl'
+plaintext --> 'this is a hello world enc'
+plaintext --> 'this is a hello world encrypte'
+plaintext --> 'this is a hello world encrypted mes'
+plaintext --> 'this is a hello world encrypted message '
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
